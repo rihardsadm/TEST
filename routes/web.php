@@ -17,8 +17,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return [
     	'name' => 'Zigis',
-    	'age' => '19',
+    	'age' => '18',
     	'id' => '5',
     	'color' => 'red',
+    	'details' => 'nulll'
     ];
 });
