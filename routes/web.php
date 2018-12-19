@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('app');
 });
+Route::get('/home', function () {
+    return [
+    	'name' => 'Zigis',
+    	'age' => '19',
+    	'id' => '5',
+    	'color' => 'red',
+
+    ];
+});
