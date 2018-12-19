@@ -20,6 +20,5 @@ Route::get('/home', function () {
     	'age' => '19',
     	'id' => '5',
     	'color' => 'red',
-
     ];
 });
